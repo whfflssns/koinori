@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "830590603233",
+    "project_id": "koinori-45a94",
+    "storage_bucket": "koinori-45a94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830590603233:android:224f636c68fdf9b2ab0ca0",
+        "android_client_info": {
+          "package_name": "org.techtown.koinori"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830590603233-nag8p0mdrtlu03i3f36th14vb2sfiu7i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpy6y6WsSvKJ-QnTDe0oXxcBfCqmYQKhQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830590603233-nag8p0mdrtlu03i3f36th14vb2sfiu7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
