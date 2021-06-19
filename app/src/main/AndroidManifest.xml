@@ -11,7 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Koinori">
-        <activity android:name=".ReserveActivity"></activity>
+        <activity android:name=".menu.MenuActivity"></activity>
+        <activity android:name=".menu.Menu_coffeeActivity"/>
+        <activity android:name=".menu.Menu_dessertActivity"/>
+        <activity android:name=".menu.Menu_smoo_adeActivity"/>
+        <activity android:name=".menu.Menu_teaActivity"/>
+        <activity android:name=".reserve_room.reserve_room1" />
+        <activity android:name=".ReserveActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

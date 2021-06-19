@@ -11,6 +11,8 @@ import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 
+import org.techtown.koinori.menu.MenuActivity;
+
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
@@ -46,22 +48,23 @@ public class MainActivity extends AppCompatActivity {
             switch (v.getId()) {
                 case R.id.user_data:
                     if (FirebaseAuth.getInstance().getCurrentUser() == null) {
-                        Activity_change('1');
+                        Activity_change(1);
                     }
                     else {
-                        Activity_change('2');
+                        Activity_change(2);
                     }
                     break;
                 case R.id.room_reserve:
                     if (FirebaseAuth.getInstance().getCurrentUser() == null) {
-                        Activity_change('1');
+                        Activity_change(1);
                     }
                     else {
-                        Activity_change('3');
+                        Activity_change(3);
                     }
                     break;
                 case R.id.menu:
-
+                    Activity_change(4);
+                    break;
                 case R.id.coupon:
 
                 case R.id.gift_card:
@@ -83,6 +86,10 @@ public class MainActivity extends AppCompatActivity {
         }
         else if (a == 3) {
             Intent intent = new Intent(this, ReserveActivity.class);
+            startActivity(intent);
+        }
+        else if (a == 4) {
+            Intent intent = new Intent(this, MenuActivity.class);
             startActivity(intent);
         }
     }
